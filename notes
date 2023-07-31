@@ -1,0 +1,88 @@
+
+python manage.py runserver #4000#  !! можно так же добавить скажем 4000 и сайт будет на этом парту
+##!! доп инфа. чтобы увидеть список команд ядра джанго пишем: django-admin
+python manage.py startapp #название приложения#
+создаем модель в models
+# активируем в settings # !! не забывать запятую в списке!!  ##!! https://www.youtube.com/watch?v=Ra_fK4X-0eA&list=PLA0M1Bcd0w8xO_39zZll2u1lz_Q-Mwn1F&index=4 - на 8 минуте доп инфа про прописывание пути к apps в конфиг.
+# python manage.py makemigrations
+# python manage.py migrate
+# python manage.py createsuperuser
+
+создаем функцию представления для отображения главной страницы,
+в урл сайта прописываем from django.urls import path, include  # добавляем путь к урл приложения: path('', include('estimate.urls')),
+# создаем файл urls в приложении:
+from django.urls import path
+from .views import *
+
+urlpatterns = [
+    path('', index, name='home'),
+]
+# в списке маршрутов с ее помощью подключим список URL уже из нашего приложения  path('women/', include('women.urls')),
+
+Начнем создавать модели. регистрация моделей в admin.py приложения. создание там дополнительных классов для отображения подробной информации на панели админа. конфигурация для возможных медиа файлов. https://proproprogs.ru/django/opredelenie-modeley-migracii-sozdanie-vypolnenie # доп инфа по эмуляции работы реального сервера.
+Модуль pillow для отображения медиа.
+Выполним миграции новой модели.
+
+Создаем папку шаблонов приложении. Создаем базовый шаблон. Начальные шаблоны с подключением к базовому. Прописываем пути и функции их представления. В папке функций представления импортируем модели.
+Создаем папку статических файлов. Прописываем путь к общей папке статических файлов в настройках сайта.
+## python manage.py collectstatic
+
+Создал новые модели с иерархией внешним ключом от ресурса вверх к проекту. Добавил их в админ панель. Провел миграцию.
+print(form_w.cleaned_data) для проверки данных из формы
+form_w.add_error для проверки ошибок формы form_w.non_field_errors\
+##?? Начальные значения формы¶ Form.initial¶
+для отображения русского текста
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+</head>
+<body>
+
+##!!! from django.db.models import Q
+# sect = ProjectSection.objects.get(Q(title_s=form_s.cleaned_data['title_s']) & Q(prj=prj))
+
+##!! чтобы получить ссылку на объект записи первичной модели. А, затем, используя механизм обратного связывания, прочитаем все связанные с данной категорией посты:
+c.women_set.all()
+
+
+использовал класс микс для сокращения кода. рендер идет вне класса.
+Resource.objects.create(**(self.form_r.cleaned_data | dict_ad)) # сложение словарей, одинаковые ключи перезаписываются вторым словарем в списке.
+
+%()s
+values = {'city': 'San Francisco', 'state': 'California'}
+s = "I live in %(city)s, %(state)s" % values
+Результат:
+I live in San Francisco, California
+
+##!! Requirements: pip freeze > requirements.txt
+    https://www.jetbrains.com/help/pycharm/managing-dependencies.html
+
+
+##!! Установка Jinja2
+    https://evileg.com/ru/post/456/
+    https://qna.habr.com/q/254643
+    ## документация
+    https://docs.djangoproject.com/en/4.2/topics/templates/#support-for-template-engines
+
+##!! {{ forloop.counter }} как enumerate только в шаблоне
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

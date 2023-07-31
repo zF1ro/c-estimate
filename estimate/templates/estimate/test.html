@@ -1,0 +1,57 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Тег SELECT</title>
+ </head>
+  <body>
+
+<!-- Простая форма, которая пошлёт GET запрос -->
+<form action="">
+  <label for="GET-name">Name:</label>
+  <input id="GET-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Простая форма, которая пошлёт POST запрос -->
+<form action="" method="post">
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Форма с fieldset, legend, и label -->
+<form action="" method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <input type="radio" name="radio" id="radio"> <label for="radio">Click me</label>
+  </fieldset>
+</form>
+
+<form action="">
+  <p><input type="submit" value="Save"></p>
+  <label for="GET-name">Name:</label>
+  <input id="GET-name" type="text" name="name">
+
+
+<!-- Простая форма, которая пошлёт POST запрос -->
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="name">
+</form>
+
+
+<form action="#" method="get">
+
+  <label>
+    <select name="select2">
+      <option>Люд.</option>
+      <option>Тех.</option>
+      <option>Мат.</option>
+      <option>Накл.</option>
+    </select>
+  </label>
+  <input type="submit" value="Добавить данный тип ресурса">
+</form>
+
+  </body>
+</html>
+

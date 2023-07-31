@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse:collapse;
+            border-spacing:0
+            }
+            table, td, th{
+            border: 1px solid #000000;
+            }
+            td, th{
+            padding: 3px;
+            width: 30px;
+            height: 25px;
+            }
+    </style>
+</head>
+<body>
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td>Название проекта</td>
+          <td>Для заказчика</td>
+          <td>Себестоимость</td>
+          <td>Прибыль</td>
+          <td>Сроки</td>
+        </tr>
+        <tr>
+          <td>{{ prj.title_p }}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+    <hr>
+
+{# Таблица секции #}
+<div>
+  <table>
+	<tbody>
+
+		<tr>
+			<td colspan="3">Название секции</td>
+			<td>Количество (в установленных ед. изм.)</td>
+			<td>Цена за (ед.изм.)</td>
+			<td>Себестоимость</td>
+			<td>Наценка(видна для фирмы)</td>
+			<td></td>
+			<td>Цена для заказчика</td>
+			<td>Стоимость для заказчика</td>
+		</tr>
+		<tr>
+      <td colspan="3"><p>1.Земляные работы и фундамент</p><p>(Иконка на показ данных)</p>
+          <p>(Иконка добавления вида работы)</p><p>(Иконка редактирования секции)</p></td>
+      <td colspan="3">во всех ячейках добавить код отображения данных с конца ячейки_________________1000000</td>
+			<td colspan="4">1200000</td>
+		</tr>
+
+    {% for w in n_works %}
+      <tr>
+        <td rowspan="{{ n_res_len }}">
+          слово "Cекция 1.1"
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2"> <p>1.2 Подготовка участка.</p><p>(Иконка добавления ресурса)</p>
+            <p>(Иконка редактирования вида работы)</p></td>
+        <td>200 м2</td>
+        <td>50 р.</td>
+        <td>10000 р.</td>
+        <td>20%</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      {#        #}
+      {% for n in n_res %}
+        <tr>
+          <td>картинка ресурса</td>
+          <td>Рабочие</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      {% endfor %}
+    {% endfor %}
+
+
+	</tbody>
+  </table>
+</div>
+<hr>
+
+
+
+</body>
+</html>

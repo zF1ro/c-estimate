@@ -1,0 +1,42 @@
+{% load static %}
+{% load estimate_tags %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>{{title}}</title>
+	<link type="text/css" href="{% static 'estimate/css/styles.css' %}" rel="stylesheet" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="{% static 'estimate/images/main.ico' %}" type="image/x-icon"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% block head %}
+  {% endblock head %}
+</head>
+
+<body>
+
+
+<!-- Меню -->
+{% block mainmenu %}
+<div class="header" style="margin: 0">
+<ul id="mainmenu" class="mainmenu">
+
+  {% return_menu as menu %}
+  {% for m in menu %}
+    {% if not forloop.last %}
+        <li><a href="{% url m.url_name %}">{{m.title}}</a></li>
+    {% else %}
+        <li class="last"><a href="{% url m.url_name %}">{{m.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<div class="clear"></div>
+</div>
+{% endblock mainmenu %}
+
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>

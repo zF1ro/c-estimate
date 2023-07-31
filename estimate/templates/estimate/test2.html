@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Событие onsubmit</title>
+  <script>
+   function deleteName(f) {
+    if (confirm("Вы уверены, что хотите удалить выделенный пункт?\nЭта операция не восстановима."))
+       f.submit();
+   }
+  </script>
+ </head>
+ <body>
+  <form action="form.php" onsubmit="deleteName(this);return false;">
+   <p>Выберите пункт для удаления</p>
+   <p><input type="radio" name="p" value="1"> Чебурашка</p>
+   <p><input type="radio" name="p" value="2"> Крокодил Гена</p>
+   <p><input type="radio" name="p" value="3"> Шапокляк</p>
+   <p><input type="submit" value="Удалить"></p>
+  </form>
+ </body>
+</html>

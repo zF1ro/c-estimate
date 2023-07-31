@@ -1,0 +1,187 @@
+{% extends 'estimate/base(in_process).html' %}
+{% load estimate_tags %}
+
+{% block head %}
+  <style>
+    table{
+      width: 100%;
+      border-collapse:collapse;
+      border-spacing:1px;
+      }
+      table, td, th{
+      border: 1px solid #000000;
+      }
+      td, th{
+      padding: 3px;
+      height: 20px;
+      }
+      .colortext{
+      background-color: #ffe; /* Цвет фона */
+      color: #3875d7; /* Цвет текста */
+      }
+  </style>
+{% endblock head %}
+
+
+{% block content %}
+  <div style="margin: 5px">
+    {# таблица общих данных проекта #}
+    <table>
+    <tbody>
+        <tr>
+          <td>Название проекта</td>
+          <td>Себестоимость</td>
+          <td>Для заказчика</td>
+          <td>Прибыль</td>
+          <td>Сроки</td>
+        </tr>
+        <tr>
+          <td><h2>{{ prj.title_p }}</h2></td>
+          <td>"Недоступна"</td>
+          <td>"Недоступна"</td>
+          <td>"Недоступна"</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr>
+
+  {# Формы в виде таблицы #}
+  <form action="{% url 'edit_all' prj.pk sect.pk %}" method="post" >
+  {% csrf_token %}
+    <div style="margin: 5px">
+      <table>
+        <tbody>
+          <tr> {# строка наименований #}
+            <td colspan="3">Название секции</td>
+            <td>Количество (в установленных ед. изм.)</td>
+            <td>Цена за (ед.изм.)</td>
+            <td>Себестоимость</td>
+            <td>Наценка(видна для фирмы)</td>
+            <td></td>
+            <td>Цена для заказчика в ед.изм</td>
+            <td >Общая стоимость</td>
+          </tr>
+          {# строка информации секции #}
+            <tr bgcolor="#81d4fa">
+              <td colspan="3" style="border: none">
+                {{ form_s.title_s }}
+                <p><a href="{% url 'ask_for_delete' 'sect' sect.pk prj.pk sect.pk %}">(Удал.)</a></p>
+              </td>
+              <td colspan="3">"Недоступна"</td>
+              <td colspan="4">"Недоступна"</td>
+            </tr>
+
+
+            {% if sect.worktype_set.count > 0 %}
+
+              {# Отделяющий столбец секции получает высоту через тэг.#}
+              <tr>
+                <td rowspan="{% set_len_sec sect %}" bgcolor="#81d4fa" style="border: none">
+                  "Cекция ({{ sect.title_s }})"
+                </td>
+              </tr>
+
+              {% for form_w, work, formset_r in forms_list %}
+              {# строка вида работы #}
+                <tr>
+                  <td colspan="2">
+                    <p align="center">{{ form_w.title_w }}</p>
+                    <p align="bottom"><a href="{% url 'ask_for_delete' 'work' work.pk prj.pk sect.pk %}">(Удал.)</a></p>
+                  </td>
+                  <td>{{ form_w.quantity_w }} {{ form_w.unit_w }}</td>
+                  <td>"Недоступна"</td>
+                  <td>"Недоступна"</td>
+                  <td>{{ form_w.margin_w }} %</td>
+                  <td></td>
+                  <td>"Недоступна"</td>
+                  <td>"Недоступна"</td>
+                </tr>
+
+              {% for form_r, res in formset_r %}
+
+                {% if res.title_r == 'p' %}
+                {# строка вывода информации ресурса люди #}
+                <tr>
+                  <td>Люд.<a href="{% url 'ask_for_delete' 'res' res.pk prj.pk sect.pk %}">(Удал.)</a></td>
+                  <td>Рабочие##</td>
+                  <td>{{ form_r.quantity_r }} чел.</td>
+                  <td>{{ form_r.day_cost_r }} р./день</td>
+                  <td>"Недоступна"</td>
+                  <td colspan="3">"Недоступна"</td>
+                  <td>"Недоступна"</td>
+                </tr>
+                {% elif res.title_r == 't' %}
+                {# строка вывода информации ресурса Техника #}
+                <tr>
+                  <td>Тех.<a href="{% url 'ask_for_delete' 'res' res.pk prj.pk sect.pk %}">(Удал.)</a></td>
+                  <td>Техника##</td>
+                  <td>{{ form_r.quantity_r }} шт.</td>
+
+                  <td>{{ form_r.day_cost_r }} р./день</td>
+                  <td>"Недоступна"</td>
+                  <td colspan="3">"Недоступна"</td>
+                  <td>"Недоступна"</td>
+                </tr>
+                {% elif res.title_r == 'm' %}
+                {# строка вывода информации ресурса Материалы #}
+                <tr>
+                  <td>Мат.<a href="{% url 'ask_for_delete' 'res' res.pk prj.pk sect.pk %}">(Удал.)</a></td>
+                  <td>Материалы##</td>
+                  <td>{{ form_r.quantity_r }} {{ form_r.unit_r }}</td>
+                  <td>{{ form_r.unit_cost_r }} р.</td>
+                  <td>"Недоступна"</td>
+                  <td colspan="3">"Недоступна"</td>
+                  <td>"Недоступна"</td>
+                </tr>
+                {% elif res.title_r == 'o' %}
+                {# строка вывода информации ресурса накладная #}
+                <tr>
+                  <td>Накл.<a href="{% url 'ask_for_delete' 'res' res.pk prj.pk sect.pk %}">(Удал.)</a></td>
+                  <td colspan="3">{{ form_r.overhead_r }}</td>
+                  <td>{{ form_r.cost_r }}</td>
+                  <td colspan="4">"Недоступна"</td>
+                </tr>
+                {% endif %}
+
+              {% endfor %}
+              {# строка разделения после вывода ресорсов #}
+              <tr>
+                <td bgcolor="#8fbc8f" colspan="9"></td>
+              </tr>
+            {% endfor %}
+
+            {% else %}
+              {# Отделяющий столбец секции получает высоту через тэг.#}
+              <tr>
+                <td rowspan="2" bgcolor="#81d4fa" style="border: none">
+                  "Cекция ({{ sect.title_s }})"
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  (Вид работы не добавлен)
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+            {% endif %}
+          {# строка разделения секций #}
+          <tr style="border: none">
+            <td bgcolor="#81d4fa" colspan="10" style="border: none"></td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="submit">Сохранить изменения</button>
+    </div>
+  </form>
+
+{% endblock content %}

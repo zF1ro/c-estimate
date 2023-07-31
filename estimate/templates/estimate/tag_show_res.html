@@ -1,0 +1,31 @@
+
+{% if r.title_r == 'p' %}
+    <td>Люд.</td>
+    <td>Рабочие</td>
+    <td>{{ r.quantity_r }} чел.</td>
+    <td>{{ day_cost_r_fo }} день</td>
+    <td>{{ total_cost_r_fo }} р./(#30) дней</td>
+    <td colspan="3">{{ unit_with_margin_r_fo }} р.</td>
+    <td>{{ total_with_margin_r_fo }} р.</td>
+  {% elif r.title_r == 't' %}
+    <td>Тех.</td>
+    <td>Техника</td>
+    <td>{{ r.quantity_r }} шт.</td>
+    <td>{{ day_cost_r_fo }} р/день</td>
+    <td>{{ total_cost_r_fo }} р./(#30) дней</td>
+    <td colspan="3">{{ unit_with_margin_r_fo }} р.</td>
+    <td>{{ total_with_margin_r_fo }} р.</td>
+  {% elif r.title_r == 'm' %}
+    <td>Мат.</td>
+    <td>Материалы</td>
+    <td>{{ r.quantity_r }} {{ r.unit_r }}.</td>
+    <td>{{ unit_cost_r_fo }} р.</td>
+    <td>{{ total_cost_r_fo }} р.</td>
+    <td colspan="3">{{ unit_with_margin_r_fo }} р.</td>
+    <td>{{ total_with_margin_r_fo }} р.</td>
+  {% elif r.title_r == 'o' %}
+    <td>Накл.</td>
+    <td colspan="3">Штраф за отсутсвие документов на стройку</td>
+    <td>{{ cost_r_fo }} р.</td>
+    <td colspan="4">{{ total_with_margin_r_fo }} р.</td>
+{% endif %}

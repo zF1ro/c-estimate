@@ -1,0 +1,25 @@
+{% extends 'estimate/base.html' %}
+
+{% block content %}
+
+{% if prj.is_published %}
+    <h1>Проект: {{ prj.title_p }} (Опубликован)</h1>
+  {% else %}
+    <h1>Проект: {{ prj }} (Не опубликован)</h1>
+  {% endif %}
+
+  <hr>
+  <hr>
+
+  {# Выборка всех секций #}
+  <h2>Секция проекта: {{ sect.title_s }} / pk: {{ sect.pk }}</h2>
+  <h3>Название работы: {{ work.title_w }}</h3>
+  <form action="{% url 'add_res_choice' prj.pk sect.pk work.pk %}" method="post">
+  {% csrf_token %}
+  {{ form_w.as_p }}
+  <button type="submit">Добавить</button>
+  </form>
+  <hr>
+
+
+{% endblock content %}

@@ -1,0 +1,37 @@
+{% extends 'estimate/base.html' %}
+{% load estimate_tags %}
+
+{% block content %}
+
+  {% if prj.is_published %}
+    <h1>Проект: {{ prj.title_p }} (Опубликован)/pk={{ prj.pk }}</h1>
+  {% else %}
+    <h1>Проект: {{ prj }} (Не опубликован)/pk={{ prj.pk }}</h1>
+  {% endif %}
+  <button type="submit"><a href="{% url 'edit_project' prj.pk %}">Редактировать проект</a></button>
+  <button type="submit"><a href="{% url 'add_sect' prj.pk %}">Добавить секцию проекта</a></button>
+
+
+  <hr>
+  <hr>
+
+  {# Выборка всех секций #}
+  {% if not all_sect %}Секция проекта не добавлена{% endif %}
+  {% for s in all_sect %}
+    <h2>Секция проекта: {{ s.title_s }} / pk: {{ s.pk }}</h2>
+    {#  кнопка добавления новой работы в данной секции  #}
+    <button type="submit"><a href="{% url 'add_work' prj.pk s.pk %}">Добавить вид работы</a></button>
+    <button type="submit"><a href="{% url 'edit_section' prj.pk s.pk %}">Редактирование секции</a></button>
+    <button type="submit"><a href="{% url 'edit_all' prj.pk s.pk %}">Редактирование в таблице(в разработке)</a></button>
+
+    {# Выборка всех видов работы данной секции #}
+    {% list_works prj s %}
+
+
+    <hr>
+  {% endfor %}
+  {% block add_sect %}{% endblock add_sect %}
+
+
+
+{% endblock content %}

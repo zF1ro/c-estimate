@@ -1,0 +1,53 @@
+{% extends 'estimate/base.html' %}
+
+{% block content %}
+
+  <form action="{% url 'edit_project' prj.id %}" method="post">
+    {% csrf_token %}
+    {{ form_p.as_p }}
+  <button type="submit">Редактировать</button>
+  </form>
+
+  <hr>
+  <hr>
+
+  {# Выборка всех секций #}
+  {% if not all_sect %}Секция проекта не добавлена{% endif %}
+  {% for s in all_sect %}
+    <h2>Секция проекта: {{ s.title_s }} / pk: {{ s.pk }}</h2>
+    {#  кнопка добавления новой работы в данной секции  #}
+    <button type="submit"><a href="{% url 'add_work' prj.pk s.pk %}">Добавить вид работы</a></button>
+    {# Выборка всех видов работы данной секции #}
+    {% for w in all_work %}
+      {% if not w %}Вид работы не добавлен{% endif %}
+      {% if w.sect == s %}
+        <h3>Название работы: {{ w.title_w }}</h3>
+        <p>Количество: {{ w.quantity_w }} / Единица измерения: {{ w.unit_w }} /
+          Наценка: {{ w.margin_w }}</p>
+{#        <p>Количество: {{ w.quantity_w }} / Единица измерения: {{ w.unit_w }} /#}
+{#          Наценка: {{ w.margin_w }}</p>#}
+
+        {# Выборка всех ресурсов данного вида работы #}
+        {% for r in all_res %}
+          {% if r.work == w %}
+            <ul>
+              <li>
+                <p>Ресурс: {{ r.title_r }}</p>
+                <p>Количество: {{ r.quantity_r }} / Ед.изм.: {{ r.unit_r }} / Стоимость единицы: {{ r.unit_cost_r }}
+                  / Стоимость дня работы: {{ r.day_cost_r }} / Стоимость накладной: {{ r.cost_r }}
+                  / Наименование накладной: {{ r.overhead_r }}</p>
+              </li>
+            </ul>
+          {% endif %}
+        {% endfor %}
+        <button type="submit"><a href="{% url 'add_res_choice' prj.pk s.pk w.pk %}">Добавить ресурс</a></button>
+      {% endif %}
+    {% endfor %}
+
+    <hr>
+  {% endfor %}
+  {% block add_sect %}{% endblock add_sect %}
+
+
+
+{% endblock content %}

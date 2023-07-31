@@ -1,0 +1,15 @@
+{% extends 'estimate/base.html' %}
+
+{% block content %}
+<h1>{{title}}</h1>
+  <h3><a href="{% url 'new_project' %}">Создать новый проект</a></h3>
+  <ul>
+    {% for p in projects %}
+      <li>
+        <a href="{{ p.get_absolute_url }}"><h3>{{ p.title_p }}</h3></a>
+        <a href="{% url 'project_table' p.id%}">Таблица</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}

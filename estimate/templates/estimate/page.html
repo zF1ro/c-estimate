@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table{
+      width: 100%;
+      border-collapse:collapse;
+      border-spacing:0
+      }
+      table, td, th{
+      border: 1px solid #000000;
+      }
+      td, th{
+      padding: 3px;
+      width: 30px;
+      height: 25px;
+      }
+  </style>
+</head>
+<body>
+  <div>
+    <table>
+    <tbody>
+        <tr>
+          <td>Название проекта</td>
+          <td>Себестоимость</td>
+          <td>Для заказчика</td>
+          <td>Прибыль</td>
+          <td>Сроки</td>
+        </tr>
+        <tr>
+          <td><h2>Культурный центр на Бульварной 9</h2></td>
+          <td>16,930,000.00</td>
+          <td>20,316,000.00</td>
+          <td>3,386,000.00</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr>
+
+  <div>
+    <table>
+      <tbody>
+        <tr>{# строка наименований #}
+          <td colspan="3">Название секции</td>
+          <td align="right">Количество (в установленных ед. изм.)</td>
+          <td align="right">Цена за (ед.изм.)</td>
+          <td align="right">Себестоимость</td>
+          <td align="right">Наценка(видна для фирмы)</td>
+          <td></td>
+          <td align="right">Цена для заказчика в ед.изм</td>
+          <td align="right">Общая стоимость</td>
+        </tr>
+
+        <tr bgcolor="#008b8b" style="border-bottom: none">{# строка информации секции #}
+          <td colspan="3"><h3>Фундамент</h3>
+            <a href="#">(Доб.)</a>
+            <a href="#">(Редакт.)</a>
+            <a href="#">(Удал.)</a>
+          </td>
+          <td colspan="3" align="right">16,930,000.00 р.</td>
+          <td colspan="4" align="right">20,316,000.00 р.</td>
+        </tr>
+
+        <tr style="border: none">{# Отделяющий столбец секции получает высоту через тэг.#}
+          <td rowspan="7" style="border: none" bgcolor="#008b8b">
+            "Cекция (№##)"
+          </td>
+        </tr>
+
+        <tr>{# строка вида работы #}
+          <td colspan="2">
+            <textarea >Заливка фундамента</textarea>
+            <a href="#">(Доб.)</a>
+            <a href="#">(Редакт.)</a>
+            <a href="#">(Удал.)</a>
+          </td>
+          <td align="right">500 м2</td>
+          <td align="right">18,800.00 р.</td>
+          <td align="right">9,400,000.00 р.</td>
+          <td align="right">20 %</td>
+          <td></td>
+          <td align="right">22,560.00 р.</td>
+          <td align="right">11,280,000.00 р.</td>
+        </tr>
+
+        <tr>{# строка вывода информации ресурса люди #}
+          <td>Люд.##</td> {# картинка #}
+          <td>Рабочие</td>
+          <td align="right">20 чел.</td>
+          <td align="right">4,000.00 день</td>
+          <td align="right">2,400,000.00 р./(30) дней</td>
+          <td align="right" colspan="3">4,800.00 р.</td>
+          <td align="right">2,880,000.00 р.</td>
+        </tr>
+        <tr>{# строка вывода информации ресурса Техника #}
+          <td>Тех.##</td>
+          <td>Техника</td>
+          <td align="right">4 шт.</td>
+
+          <td align="right">50,000.00 р/день</td>
+          <td align="right">6,000,000.00 р./(#30) дней	</td>
+          <td align="right" colspan="3">60,000.00 р.</td>
+          <td align="right">7,200,000.00 р.</td>
+        </tr>
+        <tr>{# строка вывода информации ресурса Материалы #}
+          <td>Мат.##</td>
+          <td>Материалы</td>
+          <td align="right">200 т.</td>
+          <td align="right">5,000.00 р.</td>
+          <td align="right">1,000,000.00 р.</td>
+          <td align="right" colspan="3">6,000.00 р.</td>
+          <td align="right">1,200,000.00 р.</td>
+        </tr>
+        <tr>{# строка вывода информации ресурса накладная #}
+          <td>Накл.##</td>
+          <td colspan="3">Штраф за отсутсвие документов на стройку</td>
+          <td align="right">30,000.00 р.</td>
+          <td align="right" colspan="4">36,000.00 р.</td>
+        </tr>
+
+        <tr>{# строка разделения после вывода ресорсов #}
+          <td bgcolor="#8fbc8f" colspan="9"></td>
+        </tr>
+
+        <tr style="border-top: none">{# строка разделения секций #}
+          <td bgcolor="#008b8b" style="border-top: none" colspan="10"></td>
+        </tr>
+
+        {# ########################## #}
+
+        {# !!! Копия для массовости #}
+        <tr>{# строка наименований #}
+          <td colspan="3">Название секции</td>
+          <td align="right">Количество (в установленных ед. изм.)</td>
+          <td align="right">Цена за (ед.изм.)</td>
+          <td align="right">Себестоимость</td>
+          <td align="right">Наценка(видна для фирмы)</td>
+          <td></td>
+          <td align="right">Цена для заказчика в ед.изм</td>
+          <td align="right">Общая стоимость</td>
+        </tr>
+
+        <tr>{# строка информации секции #}
+          <td colspan="3"><h3>Фундамент</h3>
+            <a href="#">(Доб.)</a>
+            <a href="#">(Редакт.)</a>
+            <a href="#">(Удал.)</a>
+          </td>
+          <td colspan="3" align="right">16,930,000.00 р.</td>
+          <td colspan="4" align="right">20,316,000.00 р.</td>
+        </tr>
+
+        <tr>{# Отделяющий столбец секции получает высоту через тэг.#}
+          <td rowspan="7">
+            "Cекция (№##)"
+          </td>
+        </tr>
+
+        <tr>{# строка вида работы #}
+          <td colspan="2">
+            <p>Заливка фундамента</p>
+            <a href="#">(Доб.)</a>
+            <a href="#">(Редакт.)</a>
+            <a href="#">(Удал.)</a>
+          </td>
+          <td align="right">500 м2</td>
+          <td align="right">18,800.00 р.</td>
+          <td align="right">9,400,000.00 р.</td>
+          <td align="right">20 %</td>
+          <td></td>
+          <td align="right">22,560.00 р.</td>
+          <td align="right">11,280,000.00 р.</td>
+        </tr>
+
+        <tr>{# строка вывода информации ресурса люди #}
+          <td>Люд.##</td> {# картинка #}
+          <td>Рабочие</td>
+          <td align="right">20 чел.</td>
+          <td align="right">4,000.00 день</td>
+          <td align="right">2,400,000.00 р./(30) дней</td>
+          <td align="right" colspan="3">4,800.00 р.</td>
+          <td align="right">2,880,000.00 р.</td>
+        </tr>
+        <tr>{# строка вывода информации ресурса Техника #}
+          <td>Тех.##</td>
+          <td>Техника</td>
+          <td align="right">4 шт.</td>
+
+          <td align="right">50,000.00 р/день</td>
+          <td align="right">6,000,000.00 р./(#30) дней	</td>
+          <td align="right" colspan="3">60,000.00 р.</td>
+          <td align="right">7,200,000.00 р.</td>
+        </tr>
+        <tr>{# строка вывода информации ресурса Материалы #}
+          <td>Мат.##</td>
+          <td>Материалы</td>
+          <td align="right">200 т.</td>
+          <td align="right">5,000.00 р.</td>
+          <td align="right">1,000,000.00 р.</td>
+          <td align="right" colspan="3">6,000.00 р.</td>
+          <td align="right">1,200,000.00 р.</td>
+        </tr>
+        <tr>{# строка вывода информации ресурса накладная #}
+          <td>Накл.##</td>
+          <td colspan="3">Штраф за отсутсвие документов на стройку</td>
+          <td align="right">30,000.00 р.</td>
+          <td align="right" colspan="4">36,000.00 р.</td>
+        </tr>
+
+        <tr>{# строка разделения после вывода ресорсов #}
+          <td bgcolor="#8fbc8f" colspan="9"></td>
+        </tr>
+
+        <tr>{# строка разделения секций #}
+          <td bgcolor="#008b8b" colspan="10"></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

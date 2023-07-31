@@ -1,0 +1,13 @@
+{% load estimate_tags %}
+
+{# Выборка всех видов работы данной секции #}
+{% for w in all_work %}
+  <h3>Название работы: {{ w.title_w }}/pk={{ w.pk }}</h3>
+  <p>Количество: {{ w.quantity_w }} / Единица измерения: {{ w.unit_w }} /
+    Наценка: {{ w.margin_w }}</p>
+
+  {# Выборка всех ресурсов данного вида работы #}
+  {% list_res w %}
+  <button type="submit"><a href="{% url 'add_res_choice' prj.pk sect.pk w.pk %}">Добавить ресурс</a></button>
+{% endfor %}
+

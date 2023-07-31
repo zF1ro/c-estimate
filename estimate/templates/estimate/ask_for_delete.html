@@ -1,0 +1,99 @@
+
+{% extends 'estimate/base(in_process).html' %}
+
+{% block head %}
+  <style>
+    table{
+      width: 30%;
+      border-collapse:collapse;
+      border-spacing:1px;
+      }
+      table, td, th{
+      border: 0 solid #000000;
+      }
+      td, th{
+      padding: 3px;
+      height: 20px;
+      }
+      .styled {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgba(220, 0, 0, 1);
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+      }
+      .styled:hover {
+          background-color: rgba(255, 0, 0, 1);
+      }
+      .styled:active {
+          box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+      }
+      .styled_no {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgb(49, 128, 43);
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+      }
+      .styled_no:hover {
+          background-color: rgb(52, 175, 40);
+      }
+      .styled_no:active {
+          box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+      }
+  </style>
+{% endblock head %}
+
+
+{% block content %}
+
+  {{ obj.pk }}
+  {{ obj_type }}
+  {{ sect.pk }}
+
+
+<form action="{% url 'ask_for_delete' obj_type obj.pk prj.pk sect.pk %}" method="post">
+{% csrf_token %}
+  <div align="center">
+    <table>
+      <tr>
+        <td align="center" colspan="2" height="160px">
+          {% if obj_type == 'sect' %}
+            <h3>Секция для удаления: <p>{{ obj.title_s | title}}</p></h3>
+            <h2>Вы уверенны, что хотите удалить секцию и все ее составляющие?</h2>
+          {% elif obj_type == 'res' %}
+            <h3>Секция для удаления: <p>{{ obj.title_r | title}}</p></h3>
+            <h2>Вы уверенны, что хотите удалить данный ресурс?</h2>
+          {% elif obj_type == 'work' %}
+            <h3>Секция для удаления: <p>{{ obj.title_w | title}}</p></h3>
+            <h2>Вы уверенны, что хотите удалить данный вид работ и необходимые ресурсы?</h2>
+          {% endif %}
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+            <button class="styled" type="submit">Удалить!</button>
+        </td>
+        <td align="center">
+          <a href="{% url 'edit_all' sect.prj_id sect.pk %}">
+            <button class="styled_no" type="button">Вернутся без удаления</button></a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</form>
+
+{% endblock content %}
+

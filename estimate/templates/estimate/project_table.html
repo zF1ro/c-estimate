@@ -1,0 +1,162 @@
+{% extends 'estimate/base(in_process).html' %}
+{% load estimate_tags %}
+
+{% block head %}
+  <style>
+    table{
+      width: 100%;
+      border-collapse:collapse;
+      border-spacing:0
+      }
+      table, td, th{
+      border: 1px solid #000000;
+      }
+      td, th{
+      padding: 3px;
+      height: 25px;
+      }
+  </style>
+{% endblock head %}
+
+{% block content %}
+  <div style="margin: 5px">
+    <table>
+    <tbody>
+        <tr>
+          <td>Название проекта</td>
+          <td>Себестоимость</td>
+          <td>Для заказчика</td>
+          <td>Прибыль</td>
+          <td>Сроки</td>
+        </tr>
+        <tr>
+          <td><h2>{{ prj.title_p }}</h2></td>
+          <td>{{ total_cost_fo }}</td>
+          <td>{{ total_with_margin_fo }}</td>
+          <td>{{ profit_fo }}</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr>
+
+  <div style="margin: 5px">
+    <table>
+      <tbody>
+        {% for s in all_sect %}
+
+          <tr>{# строка наименований #}
+            <td colspan="3">Название секции</td>
+            <td>Количество (в установленных ед. изм.)</td>
+            <td>Цена за (ед.изм.)</td>
+            <td>Себестоимость</td>
+            <td>Наценка(видна для фирмы)</td>
+            <td></td>
+            <td>Цена для заказчика в ед.изм</td>
+            <td>Общая стоимость</td>
+          </tr>
+
+          <tr bgcolor="#81d4fa">{# строка информации секции #}
+            <td colspan="3" style="border: none"><h3>{{ s.title_s }}</h3>
+              <a href="{% url 'edit_all' prj.id s.pk %}">(Редактировать секцию)</a>
+            </td>
+            <td colspan="3" align="right">{% total_cost_s s %} р.</td>
+            <td colspan="4" align="right">{% total_with_margin_s s %} р.</td>
+          </tr>
+
+
+
+          {# если в секции есть виды работ #}
+          {% if s.worktype_set.count > 0 %}
+              <tr bgcolor="#81d4fa">{# Отделяющий столбец секции получает высоту через тэг.#}
+                <td rowspan="{% set_len_sec s %}" style="border: none">
+                  "Cекция (№##)"
+                </td>
+              </tr>
+
+            {% for w in s.worktype_set.all %}
+              <tr>{# строка вида работы #}
+                <td colspan="2">
+                  <p>{{ w.title_w }}</p>
+                </td>
+                <td>{{ w.quantity_w }} {{ w.unit_w }}</td>
+                <td>{% unit_cost_w w %} р.</td>
+                <td>{% total_cost_w w %} р.</td>
+                <td>{{ w.margin_w }} %</td>
+                <td></td>
+                <td>{% unit_with_margin_w w %} р.</td>
+                <td>{% total_with_margin_w w %} р.</td>
+              </tr>
+
+              {# Если ресурсы добавленны #}
+              {% if w.resource_set.count > 0 %}
+                {% for r in w.resource_set.all %}
+                  <tr>{# строка вывода информации ресурса #}
+                    {% show_res r %} {# Выводит ресурсы данной работы через тэг #}
+                  </tr>
+                {% endfor %}
+                {# строка добавления вида ресурса #}
+                <tr>
+                  <td colspan="3">
+                      <label>
+                        <select onchange="window.location.href = this.options[this.selectedIndex].value">
+                          <option value="" >Тип</option>
+                          <option value="{% url 'add_res' prj.pk s.pk w.pk 'p' %}">+Люд.</option>
+                          <option value="{% url 'add_res' prj.pk s.pk w.pk 't' %}">+Тех.</option>
+                          <option value="{% url 'add_res' prj.pk s.pk w.pk 'm' %}">+Мат.</option>
+                          <option value="{% url 'add_res' prj.pk s.pk w.pk 'o' %}">+Накл.</option>
+                        </select> Добавить данный тип ресурса
+                      </label>
+                  </td>
+                </tr>
+
+                <tr>{# строка разделения после вывода ресорсов #}
+                  <td bgcolor="#8fbc8f" colspan="9"></td>
+                </tr>
+
+              {# Если ресурсы не! добавленны #}
+              {% else %}
+                <tr>{# строка "ресурс не найден" #}
+                  <td colspan="3">
+                      <label>
+                        <select onchange="window.location.href = this.options[this.selectedIndex].value">
+                          <option value="" >Тип</option>
+                          <option value="{% url 'add_res' prj.pk s.pk w.pk 'p' %}">+Люд.</option>
+                          <option value="{% url 'add_res' prj.pk s.pk w.pk 't' %}">+Тех.</option>
+                          <option value="{% url 'add_res' prj.pk s.pk w.pk 'm' %}">+Мат.</option>
+                          <option value="{% url 'add_res' prj.pk s.pk w.pk 'o' %}">+Накл.</option>
+                        </select> Добавить данный тип ресурса
+                      </label>
+                  </td>
+                </tr>
+
+                <tr>{# строка разделения ресурсов #}
+                  <td bgcolor="#8fbc8f" colspan="9"></td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+
+          {# если виды работ не добавленны #}
+          {% else %}
+            <tr>{# строка выделения видов работ #}
+              <td rowspan="2" bgcolor="#81d4fa" style="border: none">
+                "Cекция (№##)"
+              </td>
+            </tr>
+            <tr>{# строка при отсутствии вида работ #}
+              <td colspan="9" >
+                <p><a href="{% url 'add_work' prj.pk s.pk %}">(Добавить вид работы)</a></p>
+              </td>
+            </tr>
+          {% endif %}
+
+          <tr>{# строка разделения секций #}
+            <td bgcolor="#81d4fa" style="border: none" colspan="10"></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock content %}
