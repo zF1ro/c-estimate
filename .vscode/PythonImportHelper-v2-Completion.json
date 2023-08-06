@@ -1,0 +1,1487 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "c_estimate",
+        "description": "c_estimate",
+        "isExtraImport": true,
+        "detail": "c_estimate",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "estimate.models",
+        "description": "estimate.models",
+        "isExtraImport": true,
+        "detail": "estimate.models",
+        "documentation": {}
+    },
+    {
+        "label": "modelformset_factory",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ModelForm",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "TextInput",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Textarea",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CheckboxInput",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "formset_factory",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "modelformset_factory",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "isExtraImport": true,
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "c_estimate.asgi",
+        "description": "c_estimate.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "c_estimate.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-thp44xepi46c84x!^ibq%x7v#&+)m$jd)fgx4ylll273-c=c(z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['127.0.0.1',\n                 '37.140.192.37']\n# Application definition",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-thp44xepi46c84x!^ibq%x7v#&+)m$jd)fgx4ylll273-c=c(z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['127.0.0.1',\n                 '37.140.192.37']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['127.0.0.1',\n                 '37.140.192.37']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['127.0.0.1',\n                 '37.140.192.37']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # Приложения\n    'estimate.apps.EstimateConfig',\n]",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'c_estimate.urls'",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "ROOT_URLCONF = 'c_estimate.urls'\n# Вариант с jinja2. !!пока не смог подключить\n# TEMPLATES = [\n#     {\n#         'BACKEND': 'django.template.backends.jinja2.Jinja2',\n#         'DIRS': [BASE_DIR / 'templates'],\n#         'APP_DIRS': True,\n#         'OPTIONS': {\n#             'environment': 'estimate.jinja2.environment'\n#         },",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'c_estimate.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'ru'\n# Local time zone for this installation. Choices can be found here:\n# http://en.wikipedia.org/wiki/List_of_tz_zones_by_name\n# although not all choices may be available on all operating systems.\n# If running in a Windows environment this must be set to the same as your\n# system time zone.\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = []\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = []\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = []\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = []\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = []\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "STATICFILES_DIRS = []\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "c_estimate.settings",
+        "description": "c_estimate.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'",
+        "detail": "c_estimate.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "c_estimate.urls",
+        "description": "c_estimate.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('estimate.urls')),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "c_estimate.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "c_estimate.wsgi",
+        "description": "c_estimate.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "c_estimate.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0001_initial",
+        "description": "estimate.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Project',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title_p', models.CharField(max_length=255, unique=True, verbose_name='Название Проекта')),",
+        "detail": "estimate.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0002_alter_project_description_p_and_more",
+        "description": "estimate.migrations.0002_alter_project_description_p_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='project',\n            name='description_p',\n            field=models.TextField(blank=True, null=True, verbose_name='Текст статьи'),\n        ),",
+        "detail": "estimate.migrations.0002_alter_project_description_p_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0003_remove_worktype_margin_w_remove_worktype_quantity_w",
+        "description": "estimate.migrations.0003_remove_worktype_margin_w_remove_worktype_quantity_w",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0002_alter_project_description_p_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='worktype',\n            name='margin_w',\n        ),\n        migrations.RemoveField(",
+        "detail": "estimate.migrations.0003_remove_worktype_margin_w_remove_worktype_quantity_w",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0004_worktype_margin_w_worktype_quantity_w_and_more",
+        "description": "estimate.migrations.0004_worktype_margin_w_worktype_quantity_w_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0003_remove_worktype_margin_w_remove_worktype_quantity_w'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='worktype',\n            name='margin_w',\n            field=models.PositiveIntegerField(default=1, verbose_name='Наценка'),\n            preserve_default=False,",
+        "detail": "estimate.migrations.0004_worktype_margin_w_worktype_quantity_w_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0005_worktype_prj_w",
+        "description": "estimate.migrations.0005_worktype_prj_w",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0004_worktype_margin_w_worktype_quantity_w_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='worktype',\n            name='prj_w',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='estimate.project', verbose_name='Проект'),\n            preserve_default=False,",
+        "detail": "estimate.migrations.0005_worktype_prj_w",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0006_remove_worktype_prj_w_remove_worktype_sect",
+        "description": "estimate.migrations.0006_remove_worktype_prj_w_remove_worktype_sect",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0005_worktype_prj_w'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='worktype',\n            name='prj_w',\n        ),\n        migrations.RemoveField(",
+        "detail": "estimate.migrations.0006_remove_worktype_prj_w_remove_worktype_sect",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0007_worktype_prj_w_worktype_sect",
+        "description": "estimate.migrations.0007_worktype_prj_w_worktype_sect",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0006_remove_worktype_prj_w_remove_worktype_sect'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='worktype',\n            name='prj_w',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='estimate.project', verbose_name='Проект'),\n            preserve_default=False,",
+        "detail": "estimate.migrations.0007_worktype_prj_w_worktype_sect",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0008_alter_resource_cost_r",
+        "description": "estimate.migrations.0008_alter_resource_cost_r",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0007_worktype_prj_w_worktype_sect'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='resource',\n            name='cost_r',\n            field=models.PositiveIntegerField(blank=True, null=True, verbose_name='Сумма затрат'),\n        ),",
+        "detail": "estimate.migrations.0008_alter_resource_cost_r",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0009_alter_resource_title_r",
+        "description": "estimate.migrations.0009_alter_resource_title_r",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0008_alter_resource_cost_r'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='resource',\n            name='title_r',\n            field=models.CharField(choices=[('p', 'Люди'), ('t', 'Техника'), ('m', 'Материалы или Оборудование'), ('o', 'Накладные расходы')], max_length=30, null=True, verbose_name='Ресурс'),\n        ),",
+        "detail": "estimate.migrations.0009_alter_resource_title_r",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0010_alter_worktype_sect",
+        "description": "estimate.migrations.0010_alter_worktype_sect",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0009_alter_resource_title_r'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='worktype',\n            name='sect',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='estimate.projectsection', verbose_name='Секция проекта'),\n        ),",
+        "detail": "estimate.migrations.0010_alter_worktype_sect",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0011_alter_projectsection_options_alter_resource_options_and_more",
+        "description": "estimate.migrations.0011_alter_projectsection_options_alter_resource_options_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0010_alter_worktype_sect'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='projectsection',\n            options={'ordering': ['-time_create_s'], 'verbose_name': 'Раздел проекта', 'verbose_name_plural': '2. Разделы проекта'},\n        ),\n        migrations.AlterModelOptions(",
+        "detail": "estimate.migrations.0011_alter_projectsection_options_alter_resource_options_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "estimate.migrations.0012_alter_projectsection_options",
+        "description": "estimate.migrations.0012_alter_projectsection_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('estimate', '0011_alter_projectsection_options_alter_resource_options_and_more'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='projectsection',\n            options={'ordering': ['-title_s'], 'verbose_name': 'Раздел проекта', 'verbose_name_plural': '2. Разделы проекта'},\n        ),\n    ]",
+        "detail": "estimate.migrations.0012_alter_projectsection_options",
+        "documentation": {}
+    },
+    {
+        "label": "return_menu",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def return_menu():\n    menu = [\n        {'title': \"Главная страница\", 'url_name': 'index'},\n        {'title': \"О сайте\", 'url_name': 'about'},\n        {'title': \"Проекты\", 'url_name': 'all_projects'},\n        {'title': 'Таблица(Временная)', 'url_name': 'page'},\n        {'title': \"Войти\", 'url_name': 'login'}\n    ]\n    return menu\n@register.inclusion_tag('estimate/list_res.html')",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "list_res",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def list_res(work):\n    all_res = work.resource_set.all()\n    return {'all_res': all_res}\n@register.inclusion_tag('estimate/list_works.html')\ndef list_works(prj, sect):\n    all_work = sect.worktype_set.all()\n    return {'all_work': all_work, 'prj': prj, 'sect': sect}\n@register.simple_tag()\ndef set_len_sec(s, for_form=False):\n    \"\"\"Подсчет объектов для вычисления высоты (rowspan) разделительного столбца с названием секции.\"\"\"",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "list_works",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def list_works(prj, sect):\n    all_work = sect.worktype_set.all()\n    return {'all_work': all_work, 'prj': prj, 'sect': sect}\n@register.simple_tag()\ndef set_len_sec(s, for_form=False):\n    \"\"\"Подсчет объектов для вычисления высоты (rowspan) разделительного столбца с названием секции.\"\"\"\n    work_count = s.worktype_set.count()\n    tr = 2  # коэффициент. если таблица не содержит форм, у каждого вида работы будет дополнительно 2 строки,\n    # строка с опцией добавления ресурса и разделяющая цветная строка.\n    res_count = 0",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "set_len_sec",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def set_len_sec(s, for_form=False):\n    \"\"\"Подсчет объектов для вычисления высоты (rowspan) разделительного столбца с названием секции.\"\"\"\n    work_count = s.worktype_set.count()\n    tr = 2  # коэффициент. если таблица не содержит форм, у каждого вида работы будет дополнительно 2 строки,\n    # строка с опцией добавления ресурса и разделяющая цветная строка.\n    res_count = 0\n    works = s.worktype_set.all()\n    if works:\n        for w in works:\n            if w.resource_set.count():",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "show_res",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def show_res(r):\n    total_cost_r_fo = \"{:,.2f}\".format(r.total_cost())\n    day_cost_r_fo = None\n    if r.day_cost_r:\n        day_cost_r_fo = \"{:,.2f}\".format(r.day_cost_r)\n    cost_r_fo = None\n    if r.cost_r:\n        cost_r_fo = \"{:,.2f}\".format(r.cost_r)\n    unit_cost_r_fo = None\n    if r.unit_cost_r:",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "total_cost_w",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def total_cost_w(w):\n    total_cost_w = round((w.total_cost()), 2)\n    return \"{:,.2f}\".format(total_cost_w)\n@register.simple_tag()\ndef unit_with_margin_w(w):\n    unit_with_margin_w = w.total_with_margin() / w.quantity_w\n    return \"{:,.2f}\".format(unit_with_margin_w)\n@register.simple_tag()\ndef total_with_margin_w(w):\n    total_coast_w = w.total_with_margin()",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "unit_with_margin_w",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def unit_with_margin_w(w):\n    unit_with_margin_w = w.total_with_margin() / w.quantity_w\n    return \"{:,.2f}\".format(unit_with_margin_w)\n@register.simple_tag()\ndef total_with_margin_w(w):\n    total_coast_w = w.total_with_margin()\n    return \"{:,.2f}\".format(total_coast_w)\n@register.simple_tag()\ndef unit_cost_w(w):\n    unit_cost_w = round((w.total_cost() / w.quantity_w), 2)",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "total_with_margin_w",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def total_with_margin_w(w):\n    total_coast_w = w.total_with_margin()\n    return \"{:,.2f}\".format(total_coast_w)\n@register.simple_tag()\ndef unit_cost_w(w):\n    unit_cost_w = round((w.total_cost() / w.quantity_w), 2)\n    return \"{:,.2f}\".format(unit_cost_w)\n@register.simple_tag()\ndef total_cost_s(s):\n    total_cost_s = s.total_cost()",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "unit_cost_w",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def unit_cost_w(w):\n    unit_cost_w = round((w.total_cost() / w.quantity_w), 2)\n    return \"{:,.2f}\".format(unit_cost_w)\n@register.simple_tag()\ndef total_cost_s(s):\n    total_cost_s = s.total_cost()\n    return \"{:,.2f}\".format(total_cost_s)\n@register.simple_tag()\ndef total_with_margin_s(s):\n    total_with_margin_s = s.total_with_margin()",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "total_cost_s",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def total_cost_s(s):\n    total_cost_s = s.total_cost()\n    return \"{:,.2f}\".format(total_cost_s)\n@register.simple_tag()\ndef total_with_margin_s(s):\n    total_with_margin_s = s.total_with_margin()\n    return \"{:,.2f}\".format(total_with_margin_s)\n@register.inclusion_tag('estimate/tag_show_no_works.html')\ndef show_no_works(s):\n    return {'s': s}",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "total_with_margin_s",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def total_with_margin_s(s):\n    total_with_margin_s = s.total_with_margin()\n    return \"{:,.2f}\".format(total_with_margin_s)\n@register.inclusion_tag('estimate/tag_show_no_works.html')\ndef show_no_works(s):\n    return {'s': s}\n#################### для таблицы\n#################### формы@\n# @register.inclusion_tag('estimate/tag_delete_res.html')\n# def delete_res(res, prj_id, sect_id):",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "show_no_works",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def show_no_works(s):\n    return {'s': s}\n#################### для таблицы\n#################### формы@\n# @register.inclusion_tag('estimate/tag_delete_res.html')\n# def delete_res(res, prj_id, sect_id):\n#     return {'prj_id': prj_id, 'sect_id': sect_id}\n@register.simple_tag()\ndef get_initial(form, field):\n    return form.get_initial_for_field(form.fields[field], field)",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "get_initial",
+        "kind": 2,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "def get_initial(form, field):\n    return form.get_initial_for_field(form.fields[field], field)\n#################### формы",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 5,
+        "importPath": "estimate.templatetags.estimate_tags",
+        "description": "estimate.templatetags.estimate_tags",
+        "peekOfCode": "register = template.Library()\n@register.simple_tag()\ndef return_menu():\n    menu = [\n        {'title': \"Главная страница\", 'url_name': 'index'},\n        {'title': \"О сайте\", 'url_name': 'about'},\n        {'title': \"Проекты\", 'url_name': 'all_projects'},\n        {'title': 'Таблица(Временная)', 'url_name': 'page'},\n        {'title': \"Войти\", 'url_name': 'login'}\n    ]",
+        "detail": "estimate.templatetags.estimate_tags",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectAdmin",
+        "kind": 6,
+        "importPath": "estimate.admin",
+        "description": "estimate.admin",
+        "peekOfCode": "class ProjectAdmin(admin.ModelAdmin):\n    list_display = ('id', 'title_p', 'time_create_p', 'is_published_p')\n    list_display_links = ('id', 'title_p')\n    search_fields = ('title_p', )\n    list_editable = ('is_published_p',)\n    list_filter = ('time_create_p', )\nclass ProjectSectionAdmin(admin.ModelAdmin):\n    list_display = ('id', 'title_s', 'prj', 'time_create_s', 'is_published_s')\n    list_editable = ('is_published_s',)\n    list_display_links = ('id', 'title_s')",
+        "detail": "estimate.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectSectionAdmin",
+        "kind": 6,
+        "importPath": "estimate.admin",
+        "description": "estimate.admin",
+        "peekOfCode": "class ProjectSectionAdmin(admin.ModelAdmin):\n    list_display = ('id', 'title_s', 'prj', 'time_create_s', 'is_published_s')\n    list_editable = ('is_published_s',)\n    list_display_links = ('id', 'title_s')\n    search_fields = ('title_s', )\n    list_filter = ('time_create_s', 'prj')\nclass WorkTypeAdmin(admin.ModelAdmin):\n    list_display = ('id', 'title_w', 'prj_w', 'sect', 'time_create_w')\n    list_display_links = ('id', 'title_w', 'sect')\n    search_fields = ('title_w', )",
+        "detail": "estimate.admin",
+        "documentation": {}
+    },
+    {
+        "label": "WorkTypeAdmin",
+        "kind": 6,
+        "importPath": "estimate.admin",
+        "description": "estimate.admin",
+        "peekOfCode": "class WorkTypeAdmin(admin.ModelAdmin):\n    list_display = ('id', 'title_w', 'prj_w', 'sect', 'time_create_w')\n    list_display_links = ('id', 'title_w', 'sect')\n    search_fields = ('title_w', )\n    list_filter = ('time_create_w', 'prj_w', 'sect')\nclass ResourceAdmin(admin.ModelAdmin):\n    list_display = ('id', 'prj_r', 'work', 'title_r', 'time_create_r')\n    list_display_links = ('id', 'title_r')\n    search_fields = ('title_r', )\n    list_filter = ('time_create_r', 'prj_r', 'work')",
+        "detail": "estimate.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ResourceAdmin",
+        "kind": 6,
+        "importPath": "estimate.admin",
+        "description": "estimate.admin",
+        "peekOfCode": "class ResourceAdmin(admin.ModelAdmin):\n    list_display = ('id', 'prj_r', 'work', 'title_r', 'time_create_r')\n    list_display_links = ('id', 'title_r')\n    search_fields = ('title_r', )\n    list_filter = ('time_create_r', 'prj_r', 'work')\nadmin.site.register(Project, ProjectAdmin)\nadmin.site.register(ProjectSection, ProjectSectionAdmin)\nadmin.site.register(WorkType, WorkTypeAdmin)\nadmin.site.register(Resource, ResourceAdmin)",
+        "detail": "estimate.admin",
+        "documentation": {}
+    },
+    {
+        "label": "EstimateConfig",
+        "kind": 6,
+        "importPath": "estimate.apps",
+        "description": "estimate.apps",
+        "peekOfCode": "class EstimateConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'estimate'",
+        "detail": "estimate.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AddProjectForm",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class AddProjectForm(ModelForm):\n    class Meta:\n        model = Project\n        fields = ('title_p', 'description_p', 'is_published_p')\n        widgets = {\n            'title_p': TextInput(attrs={\n                'placeholder': 'Название проекта',\n            }),\n            'description_p': Textarea(attrs={\n                'placeholder': 'Описание проекта'",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AddPrjSecForm",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class AddPrjSecForm(ModelForm):\n    class Meta:\n        model = ProjectSection\n        fields = ('title_s',)\n        widgets = {\n            'title_s': Textarea(attrs={\n                'placeholder': 'Название секции проекта',\n                'cols': '35',\n                'rows': '3',\n                'maxlength': 100,",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AddWorkType",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class AddWorkType(ModelForm):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n    quantity_w = IntegerField(label='Количество',\n        widget=NumberInput(attrs={'placeholder': 'Количество', 'min': 1,\n                                  'style': \"width: calc(7ch + 20px)\", 'class': \"colortext\"}))\n    # 'style': \"width: calc(10ch + 20px)\" # 80ch это size=80 20px это отступы и скроллер цифр\n    class Meta:\n        model = WorkType\n        fields = ('title_w', 'quantity_w', 'unit_w', 'margin_w',)",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ResKind",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class ResKind(forms.Form):\n    PEOPLE = 'p'\n    TECH = 't'\n    MAT = 'm'\n    OVERHEADS = 'o'\n    TYPE = [\n        (PEOPLE, 'Люди'),\n        (TECH, 'Техника'),\n        (MAT, 'Материалы'),\n        (OVERHEADS, 'Накладные'),",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AddResP",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class AddResP(ModelForm):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n    quantity_r = forms.IntegerField(label=\"Количество людей\",\n                    widget=NumberInput(attrs={'placeholder': 'Количество', 'min': 1, 'max': 2000000000,\n                                              'style': \"width: calc(3ch + 20px)\", 'class': \"colortext\"}))\n    day_cost_r = forms.IntegerField(label=\"Стоимость за день\",\n                    widget=NumberInput(attrs={'placeholder': 'Стоимость за день', 'min': 1, 'max': 2000000000,\n                                              'style': \"width: calc(8ch + 20px)\", 'class': \"colortext\"}))\n    class Meta:",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AddResT",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class AddResT(ModelForm):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n    quantity_r = forms.IntegerField(label=\"Количество единиц одинаковой техники\",\n                    widget=NumberInput(attrs={'placeholder': 'Количество', 'min': 1, 'max': 2000000000,\n                                              'style': \"width: calc(3ch + 20px)\", 'class': \"colortext\"}))\n    day_cost_r = forms.IntegerField(label=\"Стоимость за день\",\n                    widget=NumberInput(attrs={'placeholder': 'Стоимость за день', 'min': 1, 'max': 2000000000,\n                                              'style': \"width: calc(8ch + 20px)\", 'class': \"colortext\"}))\n    class Meta:",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AddResM",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class AddResM(ModelForm):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n    unit_r = forms.CharField(max_length=10, label=\"Наименование единицы измерения\",\n                 widget=TextInput(attrs={'placeholder': 'Ед.изм.', 'size': 4, 'class': \"colortext\"}))\n    quantity_r = forms.IntegerField(label=\"Количество\",\n                 widget=NumberInput(attrs={'placeholder': 'Количество', 'min': 1, 'max': 2000000000,\n                                          'style': \"width: calc(3ch + 20px)\", 'class': \"colortext\"}))\n    unit_cost_r = forms.IntegerField(label=\"Стоимость за единицу\",\n                 widget=NumberInput(attrs={'placeholder': 'цена ед.', 'min': 1, 'max': 2000000000,",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AddResO",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class AddResO(ModelForm):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n    overhead_r = forms.CharField(max_length=255, label=\"Наименование накладной\",\n                 widget=Textarea(attrs={'placeholder': 'Наименование Накладной', 'class': \"colortext\",\n                                        'cols': '30', 'rows': '2', 'maxlength': 100}))\n    cost_r = forms.IntegerField(label=\"Сумма затрат\",\n                widget=NumberInput(attrs={'placeholder': 'Цена накладной', 'min': 1,  'max': 2000000000,\n                                          'style': \"width: calc(8ch + 20px)\", 'class': \"colortext\"}))\n    class Meta:",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AskForm",
+        "kind": 6,
+        "importPath": "estimate.forms",
+        "description": "estimate.forms",
+        "peekOfCode": "class AskForm(forms.Form):\n    ask = forms.BooleanField(label=\"Вы уверенны?\")\n    # sect = forms.ModelChoiceField(queryset=ProjectSection.objects.all(), label=\"Секция проекта\")\n    # prj_w = forms.ModelChoiceField(queryset=Project.objects.all(), label=\"Проект\")",
+        "detail": "estimate.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "estimate.models",
+        "description": "estimate.models",
+        "peekOfCode": "class Project(models.Model):\n    title_p = models.CharField(max_length=255, unique=True,\n                               verbose_name=\"Название Проекта\")  # атрибут title будет определять одноименное поле как текстовую строку с максимальным числом символов 255.\n    description_p = models.TextField(verbose_name=\"Текст статьи\", blank=True,\n                                     null=True)  # поле задано как текстовое с параметром blank=True. Данный параметр означает, что это поле может быть пустым, то есть, не содержать текста.\n    time_create_p = models.DateTimeField(auto_now_add=True,\n                                         verbose_name=\"Время создания\")  # auto_now_add – позволяет фиксировать текущее время только в момент первого добавления записи в таблицу БД;\n    time_update_p = models.DateTimeField(auto_now=True,\n                                         verbose_name=\"Время изменения\")  # auto_now – фиксирует текущее время всякий раз при изменении или добавлении записи в таблицу БД.\n    is_published_p = models.BooleanField(default=False, verbose_name=\"Публикация\", blank=True,",
+        "detail": "estimate.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectSection",
+        "kind": 6,
+        "importPath": "estimate.models",
+        "description": "estimate.models",
+        "peekOfCode": "class ProjectSection(models.Model):\n    \"\"\"Раздел Проекта.\"\"\"\n    title_s = models.CharField(max_length=255, verbose_name=\"Раздел Проекта\", unique=False)\n    time_create_s = models.DateTimeField(auto_now_add=True, verbose_name=\"Время создания\")\n    time_update_s = models.DateTimeField(auto_now=True, verbose_name=\"Время изменения\")\n    is_published_s = models.BooleanField(default=False, verbose_name=\"Публикация\", blank=True, null=True)\n    prj = models.ForeignKey('Project', on_delete=models.CASCADE, null=False, verbose_name=\"Проект\")\n    def __str__(self):\n        return self.title_s\n    class Meta:",
+        "detail": "estimate.models",
+        "documentation": {}
+    },
+    {
+        "label": "WorkType",
+        "kind": 6,
+        "importPath": "estimate.models",
+        "description": "estimate.models",
+        "peekOfCode": "class WorkType(models.Model):\n    \"\"\"Вид работы.\"\"\"\n    title_w = models.CharField(max_length=255, verbose_name=\"Название вида работы\", unique=False)\n    time_create_w = models.DateTimeField(auto_now_add=True, verbose_name=\"Время создания\")\n    time_update_w = models.DateTimeField(auto_now=True, verbose_name=\"Время изменения\")\n    quantity_w = models.PositiveIntegerField(verbose_name=\"Количество\")\n    unit_w = models.CharField(max_length=10, unique=False, verbose_name=\"Ед.изм.\")\n    margin_w = models.PositiveIntegerField(verbose_name=\"Наценка\")\n    sect = models.ForeignKey('ProjectSection', on_delete=models.CASCADE, null=False, verbose_name=\"Секция проекта\")\n    prj_w = models.ForeignKey('Project', on_delete=models.CASCADE, null=False, verbose_name=\"Проект\")",
+        "detail": "estimate.models",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "kind": 6,
+        "importPath": "estimate.models",
+        "description": "estimate.models",
+        "peekOfCode": "class Resource(models.Model):\n    \"\"\"Используемый ресурсы или дополнительные траты из доступного перечня: Люди, Техника, Материалы или Накладные.\"\"\"\n    PEOPLE = 'p'\n    TECH = 't'\n    MAT = 'm'\n    OVERHEADS = 'o'\n    TYPE = [\n        (PEOPLE, 'Люди'),\n        (TECH, 'Техника'),\n        (MAT, 'Материалы или Оборудование'),",
+        "detail": "estimate.models",
+        "documentation": {}
+    },
+    {
+        "label": "dict_set",
+        "kind": 5,
+        "importPath": "estimate.test1",
+        "description": "estimate.test1",
+        "peekOfCode": "dict_set = {range(4)}\nprint(dict_set)",
+        "detail": "estimate.test1",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "estimate.test2",
+        "description": "estimate.test2",
+        "peekOfCode": "x = [1, 2]\ny = [1, 2]\nxy = []\nfor num in range(5):\n    xy.append([num, num])\nfor x, y in xy:\n    print(x)\n    print(y)\nprint(xy)",
+        "detail": "estimate.test2",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "estimate.test2",
+        "description": "estimate.test2",
+        "peekOfCode": "y = [1, 2]\nxy = []\nfor num in range(5):\n    xy.append([num, num])\nfor x, y in xy:\n    print(x)\n    print(y)\nprint(xy)",
+        "detail": "estimate.test2",
+        "documentation": {}
+    },
+    {
+        "label": "xy",
+        "kind": 5,
+        "importPath": "estimate.test2",
+        "description": "estimate.test2",
+        "peekOfCode": "xy = []\nfor num in range(5):\n    xy.append([num, num])\nfor x, y in xy:\n    print(x)\n    print(y)\nprint(xy)",
+        "detail": "estimate.test2",
+        "documentation": {}
+    },
+    {
+        "label": "get_key",
+        "kind": 2,
+        "importPath": "estimate.test3",
+        "description": "estimate.test3",
+        "peekOfCode": "def get_key(uniq_names, value):\n    for k, v in uniq_names.items():\n        if v == value:\n            return k\ncourses_list = []\nfor course, mentor in zip(courses, mentors):\n    course_dict = {\"title\": course, \"mentors\": mentor}\n    courses_list.append(course_dict)\nfor course_numb, course in enumerate(courses_list):\n    names_list = []",
+        "detail": "estimate.test3",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 5,
+        "importPath": "estimate.test3",
+        "description": "estimate.test3",
+        "peekOfCode": "courses = []\nfor x in range(1):\n    courses.append(\"Java-разработчик с нуля\")\n    courses.append(\"Fullstack-разработчик на Python\")\n    courses.append(\"Python-разработчик с нуля\")\n    courses.append(\"Frontend-разработчик с нуля\")\nmentors = []\nfor x in range(1):\n    mentors.append([\"Филипп Воронов\", \"Анна Юшина\", \"Иван Бочаров\", \"Анатолий Корсаков\", \"Юрий Пеньков\", \"Илья Сухачев\", \"Иван Маркитан\", \"Ринат Бибиков\", \"Вадим Ерошевичев\", \"Тимур Сейсембаев\", \"Максим Батырев\", \"Никита Шумский\", \"Алексей Степанов\", \"Денис Коротков\", \"Антон Глушков\", \"Сергей Индюков\", \"Максим Воронцов\", \"Евгений Грязнов\", \"Константин Виролайнен\", \"Сергей Сердюк\", \"Павел Дерендяев\"])\n    mentors.append([\"Евгений Шмаргунов\", \"Олег Булыгин\", \"Александр Бардин\", \"Александр Иванов\", \"Кирилл Табельский\", \"Александр Ульянцев\", \"Роман Гордиенко\", \"Адилет Асканжоев\", \"Александр Шлейко\", \"Алена Батицкая\", \"Денис Ежков\", \"Владимир Чебукин\", \"Эдгар Нуруллин\", \"Евгений Шек\", \"Максим Филипенко\", \"Елена Никитина\"])",
+        "detail": "estimate.test3",
+        "documentation": {}
+    },
+    {
+        "label": "mentors",
+        "kind": 5,
+        "importPath": "estimate.test3",
+        "description": "estimate.test3",
+        "peekOfCode": "mentors = []\nfor x in range(1):\n    mentors.append([\"Филипп Воронов\", \"Анна Юшина\", \"Иван Бочаров\", \"Анатолий Корсаков\", \"Юрий Пеньков\", \"Илья Сухачев\", \"Иван Маркитан\", \"Ринат Бибиков\", \"Вадим Ерошевичев\", \"Тимур Сейсембаев\", \"Максим Батырев\", \"Никита Шумский\", \"Алексей Степанов\", \"Денис Коротков\", \"Антон Глушков\", \"Сергей Индюков\", \"Максим Воронцов\", \"Евгений Грязнов\", \"Константин Виролайнен\", \"Сергей Сердюк\", \"Павел Дерендяев\"])\n    mentors.append([\"Евгений Шмаргунов\", \"Олег Булыгин\", \"Александр Бардин\", \"Александр Иванов\", \"Кирилл Табельский\", \"Александр Ульянцев\", \"Роман Гордиенко\", \"Адилет Асканжоев\", \"Александр Шлейко\", \"Алена Батицкая\", \"Денис Ежков\", \"Владимир Чебукин\", \"Эдгар Нуруллин\", \"Евгений Шек\", \"Максим Филипенко\", \"Елена Никитина\"])\n    mentors.append([\"Евгений Шмаргунов\", \"Олег Булыгин\", \"Дмитрий Демидов\", \"Кирилл Табельский\", \"Александр Ульянцев\", \"Александр Бардин\", \"Александр Иванов\", \"Антон Солонилин\", \"Максим Филипенко\", \"Елена Никитина\", \"Азамат Искаков\", \"Роман Гордиенко\"])\n    mentors.append([\"Владимир Чебукин\", \"Эдгар Нуруллин\", \"Евгений Шек\", \"Валерий Хаслер\", \"Татьяна Тен\", \"Александр Фитискин\", \"Александр Шлейко\", \"Алена Батицкая\", \"Александр Беспоясов\", \"Денис Ежков\", \"Николай Лопин\", \"Михаил Ларченко\"])\ndef get_key(uniq_names, value):\n    for k, v in uniq_names.items():\n        if v == value:\n            return k",
+        "detail": "estimate.test3",
+        "documentation": {}
+    },
+    {
+        "label": "courses_list",
+        "kind": 5,
+        "importPath": "estimate.test3",
+        "description": "estimate.test3",
+        "peekOfCode": "courses_list = []\nfor course, mentor in zip(courses, mentors):\n    course_dict = {\"title\": course, \"mentors\": mentor}\n    courses_list.append(course_dict)\nfor course_numb, course in enumerate(courses_list):\n    names_list = []\n    same_name_list = []\n    print(course[\"mentors\"])\n    for names in course[\"mentors\"]:\n        names_list.append(names.split(' ')[0])",
+        "detail": "estimate.test3",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "estimate.urls",
+        "description": "estimate.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', index, name='index'),\n    path('all_projects/', all_projects, name='all_projects'),\n    path('about/', about, name='about'),\n    path('login/', login, name='login'),\n    path('project/<int:prj_id>/', project, name='project'),\n    path('new_project/', new_project, name='new_project'),\n    path('add_sect/<int:prj_id>', add_sect, name='add_sect'),\n    path('add_work/<int:prj_id>/<int:sect_id>', add_work, name='add_work'),\n    path('add_res_choice/<int:prj_id>/<int:sect_id>/<int:work_id>', add_res_choice, name='add_res_choice'),",
+        "detail": "estimate.urls",
+        "documentation": {}
+    },
+    {
+        "label": "FormMix",
+        "kind": 6,
+        "importPath": "estimate.utils",
+        "description": "estimate.utils",
+        "peekOfCode": "class FormMix:\n    \"\"\"Миксин для добавления ресурса. Убирает дублирование кода.\"\"\"\n    def __init__(self, form_r, prj_id, sect_id, work_id, choice):\n        self.form_r = form_r\n        self.prj_id = prj_id\n        self.sect_id = sect_id\n        self.work_id = work_id\n        self.choice = choice\n    def forms(self):\n        prj = Project.objects.get(pk=self.prj_id)",
+        "detail": "estimate.utils",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'estimate/index.html', {'title': 'Главная страница'})\ndef about(request):\n    return render(request, 'estimate/about.html', {'title': 'О сайте'})\ndef all_projects(request):\n    projects = Project.objects.all()\n    context = {'title': 'Активные проекты', 'projects': projects}\n    return render(request, 'estimate/all_projects.html', context=context)\ndef project(request, prj_id):\n    \"\"\"Отображение состава проекта\"\"\"",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def about(request):\n    return render(request, 'estimate/about.html', {'title': 'О сайте'})\ndef all_projects(request):\n    projects = Project.objects.all()\n    context = {'title': 'Активные проекты', 'projects': projects}\n    return render(request, 'estimate/all_projects.html', context=context)\ndef project(request, prj_id):\n    \"\"\"Отображение состава проекта\"\"\"\n    prj = Project.objects.get(pk=prj_id)\n    # all_sect = ProjectSection.objects.filter(prj=prj_id)",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "all_projects",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def all_projects(request):\n    projects = Project.objects.all()\n    context = {'title': 'Активные проекты', 'projects': projects}\n    return render(request, 'estimate/all_projects.html', context=context)\ndef project(request, prj_id):\n    \"\"\"Отображение состава проекта\"\"\"\n    prj = Project.objects.get(pk=prj_id)\n    # all_sect = ProjectSection.objects.filter(prj=prj_id)\n    all_sect = prj.projectsection_set.all()\n    all_work = WorkType.objects.filter(prj_w=prj_id)",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "project",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def project(request, prj_id):\n    \"\"\"Отображение состава проекта\"\"\"\n    prj = Project.objects.get(pk=prj_id)\n    # all_sect = ProjectSection.objects.filter(prj=prj_id)\n    all_sect = prj.projectsection_set.all()\n    all_work = WorkType.objects.filter(prj_w=prj_id)\n    # all_res = Resource.objects.filter(prj_r=prj_id)\n    context = {'prj': prj, 'all_sect': all_sect, 'all_work': all_work}\n    return render(request, 'estimate/project.html', context=context)\n############################### Формы создания и добавления",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "new_project",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def new_project(request):\n    \"\"\"Создание форм по всем модулям и предложения выбора ресурса,\n     затем передача информации шаблону добавления вида ресурса\"\"\"\n    # todo: (last) по завершению окончательного тестирования удалить вывод полной информации об ошибке на шаблон\n    # TODO: Прописать валидаторы формы. Ввод только положительных чисел. \\\n    #  Длинное название единиц измерения. Проект с таким именем уже создан\n    prj = None\n    sect = None\n    if request.method == 'POST':\n        form_p = AddProjectForm(request.POST)",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_sect",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def add_sect(request, prj_id):\n    \"\"\"Добавляем форму секции к проекту\"\"\"\n    prj = Project.objects.get(pk=prj_id)\n    all_sect = ProjectSection.objects.filter(prj=prj_id)\n    all_work = WorkType.objects.filter(prj_w=prj_id)\n    all_res = Resource.objects.filter(prj_r=prj_id)\n    if request.method == 'POST':\n        form_s = AddPrjSecForm(request.POST)\n        if form_s.is_valid():\n            try:",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_work",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def add_work(request, prj_id, sect_id):\n    \"\"\"начинается проверка формы типа ресурса которую запросит шаблон с типом ресурса\"\"\"\n    # todo: отфильтровать все секции относящиеся к проекту и передать их шаблону\n    prj = Project.objects.get(pk=prj_id)\n    sect = ProjectSection.objects.get(pk=sect_id)\n    if request.method == 'POST':\n        form_w = AddWorkType(request.POST)\n        if form_w.is_valid():\n            try:\n                form_w.cleaned_data['prj_w'] = prj",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_res_choice",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def add_res_choice(request, prj_id, sect_id, work_id):\n    prj = Project.objects.get(pk=prj_id)\n    sect = ProjectSection.objects.get(pk=sect_id)\n    work = WorkType.objects.get(pk=work_id)\n    if request.method == 'POST':\n        form_choice = ResKind(request.POST)\n        if form_choice.is_valid():\n            choice = form_choice.cleaned_data['choice']\n            return redirect('add_res', prj_id=prj.pk, sect_id=sect.pk, work_id=work.pk, choice=choice)\n    else:",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_res",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def add_res(request, prj_id, sect_id, work_id, choice):\n    \"\"\"уменьшил дублирование кода созданием класса аля миксин FormMix. \"\"\"\n    form_r = None\n    prj = Project.objects.get(pk=prj_id)\n    sect = ProjectSection.objects.get(pk=sect_id)\n    work = WorkType.objects.get(pk=work_id)\n    if request.method == 'POST':\n        if choice == 'p':\n            form_r = AddResP(request.POST)\n            class_form = FormMix(form_r, prj_id, sect_id, work_id, choice)",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_project",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def edit_project(request, prj_id):\n    \"\"\"редактирование Проекта\"\"\"\n    prj = Project.objects.get(pk=prj_id)\n    all_sect = prj.projectsection_set.all()\n    all_work = prj.worktype_set.all()\n    all_res = prj.resource_set.all()\n    if request.method == 'POST':\n        form_p = AddProjectForm(instance=prj, data=request.POST)\n        if form_p.is_valid():\n            form_p.save()",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_section",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def edit_section(request, prj_id, sect_id):\n    prj = Project.objects.get(pk=prj_id)\n    sect = ProjectSection.objects.get(pk=sect_id)\n    all_sect = prj.projectsection_set.all()\n    all_work = prj.worktype_set.all()\n    all_res = prj.resource_set.all()\n    if request.method == 'POST':\n        form_s = AddPrjSecForm(instance=sect, data=request.POST)\n        if form_s.is_valid():\n            print(form_s)",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_all",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def edit_all(request, prj_id, sect_id):\n    prj = Project.objects.get(pk=prj_id)\n    sect = ProjectSection.objects.get(pk=sect_id)\n    queryset_w = WorkType.objects.filter(sect_id=sect_id)\n    forms_list = []\n    valid = []\n    if request.method == 'POST':\n        print(request.POST)\n        form_s = AddPrjSecForm(instance=sect, data=request.POST, prefix='sect')\n        valid.append(form_s.is_valid())",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "ask_for_delete",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def ask_for_delete(request, obj_type, obj_id, prj_id, sect_id):\n    obj = None\n    sect = ProjectSection.objects.get(pk=sect_id)\n    prj = Project.objects.get(pk=prj_id)\n    if request.method == 'POST':\n        if obj_type == 'prj':\n            obj = Project.objects.get(pk=obj_id)\n            obj.delete()\n        if obj_type == 'sect':\n            obj = ProjectSection.objects.get(pk=obj_id)",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "project_table",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def project_table(request, prj_id):\n    \"\"\"Отображение состава проекта\"\"\"\n    prj = Project.objects.get(pk=prj_id)\n    all_sect = prj.projectsection_set.all()\n    all_work = prj.worktype_set.all()\n    profit = 0\n    total_cost = 0\n    total_with_margin = 0\n    if prj.total_with_margin():\n        total_with_margin += prj.total_with_margin()",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "page",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def page(request):\n    n_res = range(0, 4)\n    n_res_len = int(len(n_res) + 2)\n    n_works = range(0, 4)\n    n_sect = range(0, 3)\n    context = {'n_res': n_res, 'n_works': n_works, 'n_sect': n_sect, 'n_res_len': n_res_len}\n    return render(request, 'estimate/page.html', context=context)\n############################### отображение таблиц\ndef login(request):\n    return render(request, 'estimate/base(in_process).html', {'title': 'Вход в личный кабинет'})",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "estimate.views",
+        "description": "estimate.views",
+        "peekOfCode": "def login(request):\n    return render(request, 'estimate/base(in_process).html', {'title': 'Вход в личный кабинет'})\n##!!! from django.db.models import Q\n# sect = ProjectSection.objects.get(Q(title_s=form_s.cleaned_data['title_s']) & Q(prj=prj))\n####################### Тест сетов\n#######################",
+        "detail": "estimate.views",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'c_estimate.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "courses = []\nfor x in range(1000):\n    courses.append(\"Java-разработчик с нуля\")\n    courses.append(\"Fullstack-разработчик на Python\")\n    courses.append(\"Python-разработчик с нуля\")\n    courses.append(\"Frontend-разработчик с нуля\")\nmentors = []\nfor x in range(1000):\n    mentors.append([\"Филипп Воронов\", \"Анна Юшина\", \"Иван Бочаров\", \"Анатолий Корсаков\", \"Юрий Пеньков\", \"Илья Сухачев\", \"Иван Маркитан\", \"Ринат Бибиков\", \"Вадим Ерошевичев\", \"Тимур Сейсембаев\", \"Максим Батырев\", \"Никита Шумский\", \"Алексей Степанов\", \"Денис Коротков\", \"Антон Глушков\", \"Сергей Индюков\", \"Максим Воронцов\", \"Евгений Грязнов\", \"Константин Виролайнен\", \"Сергей Сердюк\", \"Павел Дерендяев\"])\n    mentors.append([\"Евгений Шмаргунов\", \"Олег Булыгин\", \"Александр Бардин\", \"Александр Иванов\", \"Кирилл Табельский\", \"Александр Ульянцев\", \"Роман Гордиенко\", \"Адилет Асканжоев\", \"Александр Шлейко\", \"Алена Батицкая\", \"Денис Ежков\", \"Владимир Чебукин\", \"Эдгар Нуруллин\", \"Евгений Шек\", \"Максим Филипенко\", \"Елена Никитина\"])",
+        "detail": "speed_test",
+        "documentation": {}
+    },
+    {
+        "label": "mentors",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "mentors = []\nfor x in range(1000):\n    mentors.append([\"Филипп Воронов\", \"Анна Юшина\", \"Иван Бочаров\", \"Анатолий Корсаков\", \"Юрий Пеньков\", \"Илья Сухачев\", \"Иван Маркитан\", \"Ринат Бибиков\", \"Вадим Ерошевичев\", \"Тимур Сейсембаев\", \"Максим Батырев\", \"Никита Шумский\", \"Алексей Степанов\", \"Денис Коротков\", \"Антон Глушков\", \"Сергей Индюков\", \"Максим Воронцов\", \"Евгений Грязнов\", \"Константин Виролайнен\", \"Сергей Сердюк\", \"Павел Дерендяев\"])\n    mentors.append([\"Евгений Шмаргунов\", \"Олег Булыгин\", \"Александр Бардин\", \"Александр Иванов\", \"Кирилл Табельский\", \"Александр Ульянцев\", \"Роман Гордиенко\", \"Адилет Асканжоев\", \"Александр Шлейко\", \"Алена Батицкая\", \"Денис Ежков\", \"Владимир Чебукин\", \"Эдгар Нуруллин\", \"Евгений Шек\", \"Максим Филипенко\", \"Елена Никитина\"])\n    mentors.append([\"Евгений Шмаргунов\", \"Олег Булыгин\", \"Дмитрий Демидов\", \"Кирилл Табельский\", \"Александр Ульянцев\", \"Александр Бардин\", \"Александр Иванов\", \"Антон Солонилин\", \"Максим Филипенко\", \"Елена Никитина\", \"Азамат Искаков\", \"Роман Гордиенко\"])\n    mentors.append([\"Владимир Чебукин\", \"Эдгар Нуруллин\", \"Евгений Шек\", \"Валерий Хаслер\", \"Татьяна Тен\", \"Александр Фитискин\", \"Александр Шлейко\", \"Алена Батицкая\", \"Александр Беспоясов\", \"Денис Ежков\", \"Николай Лопин\", \"Михаил Ларченко\"])\n##################\ndiff_all_2 = 0\ndiff_all_1 = 0\nx_tic = 10",
+        "detail": "speed_test",
+        "documentation": {}
+    },
+    {
+        "label": "diff_all_2",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "diff_all_2 = 0\ndiff_all_1 = 0\nx_tic = 10\ns_time = 0.00001\ntic_number = 100\nfor x in range(x_tic):\n    #####################\n    diff_1 = 0\n    diff_2 = 0\n    for x in range(tic_number):",
+        "detail": "speed_test",
+        "documentation": {}
+    },
+    {
+        "label": "diff_all_1",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "diff_all_1 = 0\nx_tic = 10\ns_time = 0.00001\ntic_number = 100\nfor x in range(x_tic):\n    #####################\n    diff_1 = 0\n    diff_2 = 0\n    for x in range(tic_number):\n        if __name__ == '__main__':",
+        "detail": "speed_test",
+        "documentation": {}
+    },
+    {
+        "label": "x_tic",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "x_tic = 10\ns_time = 0.00001\ntic_number = 100\nfor x in range(x_tic):\n    #####################\n    diff_1 = 0\n    diff_2 = 0\n    for x in range(tic_number):\n        if __name__ == '__main__':\n            start = time.perf_counter()",
+        "detail": "speed_test",
+        "documentation": {}
+    },
+    {
+        "label": "s_time",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "s_time = 0.00001\ntic_number = 100\nfor x in range(x_tic):\n    #####################\n    diff_1 = 0\n    diff_2 = 0\n    for x in range(tic_number):\n        if __name__ == '__main__':\n            start = time.perf_counter()\n            time.sleep(s_time)",
+        "detail": "speed_test",
+        "documentation": {}
+    },
+    {
+        "label": "tic_number",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "tic_number = 100\nfor x in range(x_tic):\n    #####################\n    diff_1 = 0\n    diff_2 = 0\n    for x in range(tic_number):\n        if __name__ == '__main__':\n            start = time.perf_counter()\n            time.sleep(s_time)\n            #############",
+        "detail": "speed_test",
+        "documentation": {}
+    },
+    {
+        "label": "average_all_1",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "average_all_1 = Decimal(diff_all_1 / x_tic)\naverage_all_2 = Decimal(diff_all_2 / x_tic)\nif average_all_1 > average_all_2:\n    diff_all_1_2 = Decimal(average_all_1 - average_all_2)\n    print('Итог!!!\\nКод № 2 Победил! Разница:', round(diff_all_1_2, 10))\nelse:\n    diff_all_2_1 = Decimal(average_all_2 - average_all_1)\n    print(f'Итог!!!\\nКод № 1 Победил! Средняя разница за {x_tic} сравнений:', round(diff_all_2_1, 10))",
+        "detail": "speed_test",
+        "documentation": {}
+    },
+    {
+        "label": "average_all_2",
+        "kind": 5,
+        "importPath": "speed_test",
+        "description": "speed_test",
+        "peekOfCode": "average_all_2 = Decimal(diff_all_2 / x_tic)\nif average_all_1 > average_all_2:\n    diff_all_1_2 = Decimal(average_all_1 - average_all_2)\n    print('Итог!!!\\nКод № 2 Победил! Разница:', round(diff_all_1_2, 10))\nelse:\n    diff_all_2_1 = Decimal(average_all_2 - average_all_1)\n    print(f'Итог!!!\\nКод № 1 Победил! Средняя разница за {x_tic} сравнений:', round(diff_all_2_1, 10))",
+        "detail": "speed_test",
+        "documentation": {}
+    }
+]
